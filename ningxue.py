@@ -2351,7 +2351,7 @@ def bot(op):
                 ningxue.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uda936836a9869eb86ec8ab992a4e8979"
+                midd = "uc1744094e254eaa042bbe4e5075de03d"
                 ningxue.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
