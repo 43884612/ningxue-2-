@@ -2369,7 +2369,7 @@ def bot(op):
 		gid = ningxue.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			ningxue.sendText(i,"=======[廣播]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~nad_nad.")
+			ningxue.sendText(i,"=======[廣播]=======\n\n"+bc+"\n\n=======[廣播結束]=======")
 		    ningxue.sendText(msg.to,"Success BC BosQ")
 		else:
 		    ningxue.sendText(msg.to,"只限管理員")
@@ -3217,7 +3217,7 @@ def bot(op):
                 for ids in kontak:
                     msgs+="\n[%i] %s" % (num, ids.displayName)
                     num=(num+1)
-                msgs+="\n═════════好友 列表═════════\n\nTotal Friend : %i" % len(kontak)
+                msgs+="\n═════════好友 列表═════════\n\n好友總數 : %i" % len(kontak)
                 ningxue.sendText(msg.to, msgs)
 
             elif msg.text in ["Memlist"]:   
