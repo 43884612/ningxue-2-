@@ -3326,7 +3326,7 @@ def bot(op):
 
             elif msg.text.lower() == 'runtime':
                 eltime = time.time() - mulai
-                van = "Bot Sudah Berjalan Selama :\n"+waktu(eltime)
+                van = "機器運行時間 :\n"+waktu(eltime)
                 ningxue.sendText(msg.to,van)
                 
                  
@@ -3345,9 +3345,9 @@ def bot(op):
             elif msg.text in ["Kalender","Time","Waktu"]:
                 timeNow = datetime.now()
                 timeHours = datetime.strftime(timeNow,"(%H:%M)")
-                day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+                day = ["星期日", "星期一", "星期二", "星期三", "星期四","星期五", "星期六"]
+                hari = ["星期日", "星期一", "星期二", "星期三", "星期四","星期五", "星期六"]
+                bulan = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"]
                 inihari = datetime.today()
                 hr = inihari.strftime('%A')
                 bln = inihari.strftime('%m')
