@@ -2254,9 +2254,9 @@ def bot(op):
                         dataResult.append(contactId[v].displayName + ' ('+timeSeen[v]+')')
                         pass
                     if len(dataResult) > 0:
-                        tukang = "╔═════════════════════════\n║         ☆☞ LIST VIEWERS ☜☆\n╠═════════════════════════\n╠➩"
+                        tukang = "╔═════════════════════════\n║         ☆☞ 已讀 名單 ☜☆\n╠═════════════════════════\n╠➩"
                         grp = '\n╠➩ '.join(str(f) for f in dataResult)
-                        total = '\n╠═════════════════════════\n╠➩ Total %i Viewers (%s)' % (len(dataResult), datetime.now().strftime('%H:%M:%S')) + "\n╚═════════════════════════"
+                        total = '\n╠═════════════════════════\n╠➩ 共 %i 個已讀 (%s)' % (len(dataResult), datetime.now().strftime('%H:%M:%S')) + "\n╚═════════════════════════"
                         ningxue.sendText(msg.to, "%s %s %s" % (tukang, grp, total))
                         subprocess.Popen("echo '' > dataSeen/"+msg.to+".txt", shell=True, stdout=subprocess.PIPE)
                         ningxue.sendText(msg.to, "☆Auto Checkpoint☆")                        
@@ -2369,7 +2369,7 @@ def bot(op):
 		gid = ningxue.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			ningxue.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~nad_nad.")
+			ningxue.sendText(i,"=======[廣播]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~nad_nad.")
 		    ningxue.sendText(msg.to,"Success BC BosQ")
 		else:
 		    ningxue.sendText(msg.to,"只限管理員")
@@ -2418,13 +2418,13 @@ def bot(op):
                 print("Speed")                
                 elapsed_time = time.time() - start
 		ningxue.sendText(msg.to, "運行中...")
-                ningxue.sendText(msg.to, "%sseconds" % (elapsed_time))
+                ningxue.sendText(msg.to, "%s秒" % (elapsed_time))
                 
             elif msg.text in ["Speed test"]:
                 start = time.time()
                 ningxue.sendText(msg.to, "運行中...")
                 elapsed_time = time.time() - start
-                ningxue.sendText(msg.to, "%sseconds" % (elapsed_time))                
+                ningxue.sendText(msg.to, "%s秒" % (elapsed_time))                
  
             elif msg.text in ["Ban"]:
                 if msg.from_ in admin:
@@ -3213,11 +3213,11 @@ def bot(op):
                 contactlist = ningxue.getAllContactIds()
                 kontak = ningxue.getContacts(contactlist)
                 num=1
-                msgs="═════════List Friend═════════"
+                msgs="═════════好友 列表═════════"
                 for ids in kontak:
                     msgs+="\n[%i] %s" % (num, ids.displayName)
                     num=(num+1)
-                msgs+="\n═════════List Friend═════════\n\nTotal Friend : %i" % len(kontak)
+                msgs+="\n═════════好友 列表═════════\n\nTotal Friend : %i" % len(kontak)
                 ningxue.sendText(msg.to, msgs)
 
             elif msg.text in ["Memlist"]:   
