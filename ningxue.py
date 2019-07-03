@@ -3399,22 +3399,22 @@ def bot(op):
 
 
             elif msg.text in ["Glist"]:
-                ningxue.sendText(msg.to, "Tunggu Sebentar. . .")                    
+                ningxue.sendText(msg.to, "排列中. . .")                    
                 gid = ningxue.getGroupIdsJoined()
                 h = ""
                 for i in gid:
                     h += "╠➩" + "%s\n" % (ningxue.getGroup(i).name +" ~> ["+str(len(ningxue.getGroup(i).members))+"]")
-                ningxue.sendText(msg.to,"╔═════════════════════════\n║          ☆☞ LIST GROUPS☜☆\n╠═════════════════════════\n" + h + "╠═════════════════════════" + "\n║ Total Groups =" +" ["+str(len(gid))+"]\n╚═════════════════════════")
+                ningxue.sendText(msg.to,"╔═════════════════════════\n║          ☆☞ 群組列表☜☆\n╠═════════════════════════\n" + h + "╠═════════════════════════" + "\n║ 總群組數 =" +" ["+str(len(gid))+"]\n╚═════════════════════════")
 
             elif msg.text in ["Glistmid"]:   
                 gruplist = ningxue.getGroupIdsJoined()
                 kontak = ningxue.getGroups(gruplist)
                 num=1
-                msgs="═════════List GrupMid═════════"
+                msgs="═════════所有群組Mid═════════"
                 for ids in kontak:
                     msgs+="\n[%i] %s" % (num, ids.id)
                     num=(num+1)
-                msgs+="\n═════════List GrupMid═════════\n\nTotal Grup : %i" % len(kontak)
+                msgs+="\n═════════所有群組Mid═════════\n\n總群組數 : %i" % len(kontak)
                 ningxue.sendText(msg.to, msgs)
 
 
@@ -3422,9 +3422,9 @@ def bot(op):
             elif "Google: " in msg.text:
                     a = msg.text.replace("Google: ","")
                     b = urllib.quote(a)
-                    ningxue.sendText(msg.to,"Sedang Mencari...")
+                    ningxue.sendText(msg.to,"搜尋中...")
                     ningxue.sendText(msg.to, "https://www.google.com/" + b)
-                    ningxue.sendText(msg.to,"Itu Dia Linknya. . .")     
+                    ningxue.sendText(msg.to,"這是連結. . .")     
 
 
             elif "Details group: " in msg.text:
