@@ -2259,7 +2259,7 @@ def bot(op):
                         total = '\n╠═════════════════════════\n╠➩ 共 %i 個已讀 (%s)' % (len(dataResult), datetime.now().strftime('%H:%M:%S')) + "\n╚═════════════════════════"
                         ningxue.sendText(msg.to, "%s %s %s" % (tukang, grp, total))
                         subprocess.Popen("echo '' > dataSeen/"+msg.to+".txt", shell=True, stdout=subprocess.PIPE)
-                        ningxue.sendText(msg.to, "☆Auto Checkpoint☆")                        
+                        ningxue.sendText(msg.to, "☆ 自動設定檢查點 ☆")                        
                     else:
                         ningxue.sendText(msg.to, "☆ 沒有人看過ㄎㄎ ☆")
                     print "Viewseen"
