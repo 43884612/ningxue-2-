@@ -26,13 +26,13 @@ selfMessage ="""
 ╠═══════════════
 ╠➩〘Hi〙
 ╠➩〘Me〙
-╠➩〘Mymid〙
-╠➩〘Mid @〙
-╠➩〘SearchID (ID LINE)〙
+╠➩〘Mymid(查詢機器Mid)〙
+╠➩〘Mid @(查詢標註者Mid)〙
+╠➩〘SearchID (ID LINE搜尋line ID用戶)〙
 ╠➩〘Checkdate (DD/MM/YY)〙
-╠➩〘Kalender〙
+╠➩〘Kalender(現在時間.日期)〙
 ╠➩〘Steal contact〙
-╠➩〘Pp @〙
+╠➩〘Pp @(丟標註頭貼)〙
 ╠➩〘Cover @〙
 ╠➩〘Auto like〙
 ╠➩〘Scbc Text〙
@@ -44,7 +44,7 @@ selfMessage ="""
 ╠➩〘Profile @〙
 ╠➩〘Contact @〙
 ╠➩〘Getvid @〙
-╠➩〘Friendlist〙
+╠➩〘Friendlist(好友列表)〙
 ╠➩〘Micadd @〙
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
@@ -60,12 +60,12 @@ botMessage ="""
 ╠═══════════════
 ╠➩〘Absen〙
 ╠➩〘Respon〙
-╠➩〘Runtime [運行速度]〙
+╠➩〘Runtime [以開機時間]〙
 ╠➩〘copy @〙
 ╠➩〘Copycontact〙
 ╠➩〘Mybackup〙
-╠➩〘Mybio (Text)〙
-╠➩〘Myname (Text)〙
+╠➩〘Mybio (Text)(更改機器自介)〙
+╠➩〘Myname (Text)(更改機器名稱)〙
 ╠➩〘@bye〙
 ╠➩〘Bot on/off [半垢開/關]〙
 ╠═══════════════
@@ -119,11 +119,11 @@ groupMessage ="""
 ╠═══════════════
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
-╠➩〘Invite creator〙
+╠➩〘Invite creator(邀請創作者)〙
 ╠➩〘Setview〙
-╠➩〘Viewseen〙
+╠➩〘Viewseen(看已讀者)〙
 ╠➩〘Gn: [群組名稱]〙
-╠➩〘Tag all〙
+╠➩〘Tag all(標註所有人)〙
 ╠➩〘lurk on/off [查看已讀開/關]〙
 ╠➩〘lurkers [查看已讀者]〙
 ╠➩〘Recover〙
@@ -136,11 +136,11 @@ groupMessage ="""
 ╠➩〘Pict group: [群組名稱]〙
 ╠➩〘Spam: (文字)〙
 ╠➩〘Add all〙
-╠➩〘Kick: (Mid)〙
-╠➩〘Invite: (Mid)〙
+╠➩〘Kick: (Mid)(踢出那個人Mid)〙
+╠➩〘Invite: (Mid)(邀請那個人Mid)〙
 ╠➩〘Invite〙
 ╠➩〘Memlist [成員名單]〙
-╠➩〘Getgroup image〙
+╠➩〘Getgroup image(群組頭像)〙
 ╠➩〘Urlgroup Image〙
 ╠═══════════════
 ║         ღ 毅毅半垢 ღ
@@ -173,7 +173,7 @@ creatorMessage ="""
 ╠═══════════════
 ╠➩〘Crash〙
 ╠➩〘Kickall [翻群]〙
-╠➩〘Bc: (Text)〙
+╠➩〘Bc: (Text)(廣播所有群組)〙
 ╠➩〘Join group: (群主名稱)〙
 ╠➩〘Leave group: (群主名稱)〙
 ╠➩〘Leave all group(退出所有群組)〙
@@ -215,12 +215,12 @@ adminMessage ="""
 ╠➩〘Autokick on/off〙
 ╠➩〘Autocancel on/off〙
 ╠➩〘Invitepro on/off〙
-╠➩〘Join on/off〙
+╠➩〘Join on/off(自動入群組)〙
 ╠➩〘Joincancel on/off〙
-╠➩〘Respon1 on/off〙
-╠➩〘Respon2 on/off〙
-╠➩〘Respon3 on/off〙
-╠➩〘Responkick on/off〙
+╠➩〘Respon1 on/off(標註回復1)〙
+╠➩〘Respon2 on/off(標註回復2)〙
+╠➩〘Respon3 on/off(標註回復3)〙
+╠➩〘Responkick on/off(標註踢出)〙
 ╠═══════════════
 ║         ღ毅毅半垢 ღ
 ║ ✡ https://www.instagram.com/weiyi920512 ✡
@@ -409,7 +409,7 @@ def upload_tempimage(client):
          'description': 'bot auto upload'
      }
 
-     print("Uploading image... ")
+     print("正在上傳圖片... ")
      image = client.upload_from_path(image_path, config=config, anon=False)
      print("Done")
      print()
