@@ -3345,9 +3345,10 @@ def bot(op):
             elif msg.text in ["Kalender","Time","Waktu"]:
                 timeNow = datetime.now()
                 timeHours = datetime.strftime(timeNow,"(%H:%M)")
-                day = ["星期日", "星期一", "星期二", "星期三", "星期四","星期五", "星期六"]
-                hari = ["星期日", "星期一", "星期二", "星期三", "星期四","星期五", "星期六"]
-                bulan = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"]
+                day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
+                hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
+                bulan = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
+                bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
                 inihari = datetime.today()
                 hr = inihari.strftime('%A')
                 bln = inihari.strftime('%m')
@@ -3355,7 +3356,7 @@ def bot(op):
                     if hr == day[i]: hasil = hari[i]
                 for k in range(0, len(bulan)):
                     if bln == str(k): bln = bulan[k-1]
-                rst = hasil + ", " + inihari.strftime('%d') + " - " + bln + " - " + inihari.strftime('%Y') + "\nJam : [ " + inihari.strftime('%H:%M:%S') + " ]"
+                rst = hasil + ", " + inihari.strftime('%d') + " - " + bln + " - " + inihari.strftime('%Y') + "\n時間 : [ " + inihari.strftime('%H:%M:%S') + " ]"
                 ningxue.sendText(msg.to, rst)                
                  
                 
