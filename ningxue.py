@@ -3346,8 +3346,7 @@ def bot(op):
                 timeNow = datetime.now()
                 timeHours = datetime.strftime(timeNow,"(%H:%M)")
                 day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                bulan = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
+                hari = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"]
                 bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
                 inihari = datetime.today()
                 hr = inihari.strftime('%A')
