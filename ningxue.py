@@ -162,8 +162,8 @@ setMessage ="""
 ╠➩〘Sticker on [貼圖傳送開/關]〙
 ╠➩〘Simisimi on/off [西米西米開/關]〙
 ╠═══════════════
-║         ღ 凝雪半垢 ღ
-║ ✡ https://www.youtube.com/channel/UCxaaoIPO9VdAkW5EHJepbGQ✡
+║         ღ 毅毅半垢 ღ
+║ ✡ https://www.instagram.com/weiyi920512 ✡
 ╚═══════════════
 """
 
