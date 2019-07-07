@@ -3228,7 +3228,7 @@ def bot(op):
                 for ids in group:
                     msgs+="\n[%i] %s" % (num, ids.displayName)
                     num=(num+1)
-                msgs+="\n═════════群組成員═════════\n\nTotal Members : %i" % len(group)
+                msgs+="\n═════════群組成員═════════\n\n成員總數 : %i" % len(group)
                 ningxue.sendText(msg.to, msgs)
 
             
