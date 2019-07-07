@@ -130,8 +130,8 @@ groupMessage ="""
 ╠➩〘Cancel〙
 ╠➩〘Cancelall〙
 ╠➩〘Gcreator〙
-╠➩〘Ginfo〙
-╠➩〘Gurl〙
+╠➩〘Ginfo(群組資料)〙
+╠➩〘Gurl(群條碼)〙
 ╠➩〘List group〙
 ╠➩〘Pict group: [群組名稱]〙
 ╠➩〘Spam: (文字)〙
@@ -204,8 +204,8 @@ adminMessage ="""
 ╠➩〘Del ban: (NamaGroup〙
 ╠➩〘List ban〙
 ╠➩〘Kill ban〙
-╠➩〘Glist〙
-╠➩〘Glistmid〙
+╠➩〘Glist(加入的群組(人數))〙
+╠➩〘Glistmid(群組Gid)〙
 ╠➩〘Details group: (Gid)〙
 ╠➩〘Cancel invite: (Gid)〙
 ╠➩〘Invitemeto: (Gid)〙
@@ -1026,12 +1026,12 @@ def bot(op):
                         else:
                             sinvitee = str(len(ginfo.invitee))
                         if ginfo.preventJoinByTicket == True:
-                            u = "close"
+                            u = "關閉"
                         else:
-                            u = "open"
-                        ningxue.sendText(msg.to,"[Group name]\n" + str(ginfo.name) + "\n\n[Gid]\n" + msg.to + "\n\n[Group creator]\n" + gCreator + "\n\n[Profile status]\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n\nMembers:" + str(len(ginfo.members)) + "members\nPending:" + sinvitee + "people\nURL:" + u + "it is inside")
+                            u = "開啟"
+                        ningxue.sendText(msg.to,"[群組名稱]\n" + str(ginfo.name) + "\n\n[群組Gid]\n" + msg.to + "\n\n[群組創建人]\n" + gCreator + "\n\n[群組頭像連結]\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n\n成員:" + str(len(ginfo.members)) + "個\n邀請中:" + sinvitee + "個\n條碼狀況:" + u + " i")
                     else:
-                        ningxue.sendText(msg.to,"[group name]\n" + str(ginfo.name) + "\n[gid]\n" + msg.to + "\n[group creator]\n" + gCreator + "\n[profile status]\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
+                        ningxue.sendText(msg.to,"[群組名稱]\n" + str(ginfo.name) + "\n[群組gid]\n" + msg.to + "\n[群組創建人]\n" + gCreator + "\n[群組頭像連結]\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
                     if wait["lang"] == "JP":
                         ningxue.sendText(msg.to,"不能在群組外使用")
@@ -3410,11 +3410,11 @@ def bot(op):
                 gruplist = ningxue.getGroupIdsJoined()
                 kontak = ningxue.getGroups(gruplist)
                 num=1
-                msgs="═════════所有群組Mid═════════"
+                msgs="═════════所有群組Gid═════════"
                 for ids in kontak:
                     msgs+="\n[%i] %s" % (num, ids.id)
                     num=(num+1)
-                msgs+="\n═════════所有群組Mid═════════\n\n總群組數 : %i" % len(kontak)
+                msgs+="\n═════════所有群組Gid═════════\n\n總群組數 : %i" % len(kontak)
                 ningxue.sendText(msg.to, msgs)
 
 
