@@ -2157,7 +2157,7 @@ def bot(op):
                  if jml > 500:
                      print "Terlalu Banyak Men 500+"
                  cnt = Message()
-                 cnt.text = "Jumlah:\n" + str(jml) +  " Members"
+                 cnt.text = "總計:\n" + str(jml) +  " 位成員"
                  cnt.to = msg.to
                  ningxue.sendMessage(cnt)
                  
@@ -2216,7 +2216,7 @@ def bot(op):
                  if jml > 500:
                      print "Terlalu Banyak Men 500+"
                  cnt = Message()
-                 cnt.text = "Jumlah:\n" + str(jml) +  " Members"
+                 cnt.text = "總計:\n" + str(jml) +  " 位成員"
                  cnt.to = msg.to
                  ningxue.sendMessage(cnt)                 
 
