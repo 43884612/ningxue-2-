@@ -1226,7 +1226,7 @@ def bot(op):
 		        gn = ningxue.getGroup(i).name
                         h += "♦【%s】\n" % (gn)
 		        jml += 1
-                    ningxue.sendText(msg.to,"=======[List Group]=======\n"+ h +"\nTotal Group: "+str(jml))
+                    ningxue.sendText(msg.to,"=======[群組名單]=======\n"+ h +"\n群組總數: "+str(jml))
  
 	    elif "Ban group: " in msg.text:
 		grp = msg.text.replace("Ban group: ","")
