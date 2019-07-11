@@ -1029,7 +1029,7 @@ def bot(op):
                             u = "關閉"
                         else:
                             u = "開啟"
-                        ningxue.sendText(msg.to,"[群組名稱]\n" + str(ginfo.name) + "\n\n[群組Gid]\n" + msg.to + "\n\n[群組創建人]\n" + gCreator + "\n\n[群組頭像連結]\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n\n成員:" + str(len(ginfo.members)) + "個\n邀請中:" + sinvitee + "個\n條碼狀況:" + u  )
+                        ningxue.sendText(msg.to,"[群組名稱]\n" + str(ginfo.name) + "\n\n[群組Gid]\n" + msg.to + "\n\n[群組創建人]\n" + gCreator + "\n\n[群組頭像連結]\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n\n成員:" + str(len(ginfo.members)) + "個\n邀請中:" + sinvitee + "個\n條碼狀況:" + u + "在裡面" )
                     else:
                         ningxue.sendText(msg.to,"[群組名稱]\n" + str(ginfo.name) + "\n[群組gid]\n" + msg.to + "\n[群組創建人]\n" + gCreator + "\n[群組頭像連結]\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
@@ -3576,5 +3576,3 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             ningxue.Poll.rev = max(ningxue.Poll.rev, Op.revision)
             bot(Op)
-
-
