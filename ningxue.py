@@ -1064,7 +1064,7 @@ def bot(op):
             elif msg.contentType == 16:
                 if wait["Timeline"] == True:
                     msg.contentType = 0
-                    msg.text = "post URL\n" + msg.contentMetadata["postEndUrl"]
+                    msg.text = "網址 \n" + msg.contentMetadata["postEndUrl"]
                     ningxue.sendText(msg.to,msg.text)
 
             
