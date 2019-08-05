@@ -161,6 +161,7 @@ setMessage ="""
 ╠➩〘Contact on/off [友資傳送開/關]〙
 ╠➩〘Sticker on [貼圖傳送開/關]〙
 ╠➩〘Simisimi on/off [西米西米開/關]〙
+╠➩〘ReRead On/Off [查詢收回開/關]〙
 ╠═══════════════
 ║         ღ 毅毅半垢 ღ
 ║ ✡ https://www.instagram.com/weiyi920512 ✡
@@ -273,6 +274,7 @@ wait = {
     "Members":10,
     "AutoCancel":False,
     "AutoKick":False,
+    'reread':True,
     'pap':{},
     'invite':{},
     'steal':{},
@@ -295,7 +297,7 @@ wait = {
     "dblacklist":False,
     "Qr":False,
     "Contact":False,
-    "Sambutan":False,
+    "Sambutan":True,
     "inviteprotect":False,    
     "alwaysRead":False,    
     "Sider":{},
@@ -810,7 +812,6 @@ def bot(op):
             c = Message(to=op.param1, from_=None, text=None, contentType=13)
             c.contentMetadata={'mid':op.param2}
             ningxue.sendMessage(c)  
-            ningxue.sendImageWithURL(op.param1,image)
             d = Message(to=op.param1, from_=None, text=None, contentType=7)
             d.contentMetadata={
                                     "STKID": "13269548",
@@ -871,7 +872,8 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = ningxue.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["不要標我!! 我很忙!!",cName + " 再標我不理你了!!"]
+                     balas = [cName + " 幹嘛!!",cName + " 找我ㄇ"]
+		     balas1 = "機器死亡!!ㄎㄎ"
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -879,6 +881,7 @@ def bot(op):
                      for mention in mentionees:
                            if mention['M'] in Bots:
                                   ningxue.sendText(msg.to,ret_)
+				  ningxue.sendText(msg.to,balas1)
                                   break   
                               
             if 'MENTION' in msg.contentMetadata.keys() != None:
@@ -1380,6 +1383,12 @@ def bot(op):
 		else:
 		    ningxue.sendText(msg.to,"只限管理員")		    
 		    
+	    elif text.lower() == 'reread on':
+                    wait["reread"] = True
+                    ningxue.sendMessage(to,"收回查詢開啟")
+            elif text.lower() == 'reread off':
+                    wait["reread"] = False
+                    ningxue.sendMessage(to,"收回查詢關閉")
  
             elif msg.text in ["Respon1 on"]:
 		if msg.from_ in admin:
