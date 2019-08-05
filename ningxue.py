@@ -1611,6 +1611,8 @@ def bot(op):
 		else:md+="╠➩❌ 進群歡迎 : Off\n"
 		if wait["AutoJoin"] == True: md+="╠➩✔️ 自動入群 : On\n"
                 else: md +="╠➩❌ 自動入群 : Off\n"
+	        if wait["reread"] == True:md+="╠➩✔️ 收回查詢 : On\n"
+                else: md+= "╠➩❌ 收回查詢 : Off\n"  
 		if wait["AutoJoinCancel"] == True: md+="╠➩✔️ Auto Join Cancel : On\n"
                 else: md +="╠➩❌ Auto Join Cancel : Off\n"                
 		if wait["Contact"] == True: md+="╠➩✔️ Info Contact : On\n"
