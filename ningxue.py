@@ -1383,11 +1383,11 @@ def bot(op):
 		else:
 		    ningxue.sendText(msg.to,"只限管理員")		    
 		    
-	    elif msg.text in 'reread on'
+	    elif msg.text in ["reread on"]
                     wait["reread"] = True
                     ningxue.sendText(msg.to,"查詢收回開啟")
                     
-            elif msg.text in 'reread off'
+            elif msg.text in ["reread off"]
                     wait["reread"] = False
                     ningxue.sendText(msg.to,"查詢收回關閉")
  
