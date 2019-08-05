@@ -1333,6 +1333,20 @@ def bot(op):
                 else:
                     ningxue.sendText(msg.to,"不能在群組外使用")
  
+	    elif msg.text in ["reread on"]
+		if msg.from_ in admin:
+                    wait["reread"] = True
+                    ningxue.sendText(msg.to,"查詢收回開啟")
+		else:
+		    ningxue.sendText(msg.to,"只限管理員")
+                    
+            elif msg.text in ["reread off"]
+		if msg.from_ in admin:
+                    wait["reread"] = False
+                    ningxue.sendText(msg.to,"查詢收回關閉")
+		else:
+		    ningxue.sendText(msg.to,"只限管理員")
+
             elif msg.text in ["Ourl","Url on"]:
                 if msg.toType == 2:
                     X = ningxue.getGroup(msg.to)
@@ -1382,14 +1396,6 @@ def bot(op):
                     ningxue.sendText(msg.to,"自動取消群組邀請關閉")
 		else:
 		    ningxue.sendText(msg.to,"只限管理員")		    
-		    
-	    elif msg.text in ["reread on"]
-                    wait["reread"] = True
-                    ningxue.sendText(msg.to,"查詢收回開啟")
-                    
-            elif msg.text in ["reread off"]
-                    wait["reread"] = False
-                    ningxue.sendText(msg.to,"查詢收回關閉")
  
             elif msg.text in ["Respon1 on"]:
 		if msg.from_ in admin:
