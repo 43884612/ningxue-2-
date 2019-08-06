@@ -584,13 +584,13 @@ def bot(op):
                 	msg_id = op.param2
                 	if setting["reread"] == True:
                     		if msg_id in msg_dict:
-                        		if msg_dict[msg_id]["from"] not in bl:
-                            		cl.sendMessage(at,"[收回訊息者]\n%s\n[訊息內容]\n%s"%(cl.getContact(msg_dict[msg_id]["from"]).displayName,msg_dict[msg_id]["text"]))
+                        		 if msg_dict[msg_id]["from"] not in bl:
+                            		  ningxue.sendMessage(at,"[收回訊息者]\n%s\n[收回內容]\n%s"%(ningxue.getContact(msg_dict[msg_id]["from"]).displayName,msg_dict[msg_id]["text"]))
                         	del msg_dict[msg_id]
                 	else:
                     	    pass
-              	    except Exception as e:
-                	print (e)
+                except:
+                	    print (e)
 		
 		
 		
