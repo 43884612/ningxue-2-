@@ -577,7 +577,24 @@ def bot(op):
                          pass
                 except:
                     pass
-	      
+	
+	        if op.type == 65:
+            print ("[ 65 ] REREAD")
+            try:
+                at = op.param1
+                msg_id = op.param2
+                if setting["reread"] == True:
+                    if msg_id in msg_dict:
+                        if msg_dict[msg_id]["from"] not in bl:
+                            cl.sendMessage(at,"[收回訊息者]\n%s\n[訊息內容]\n%s"%(cl.getContact(msg_dict[msg_id]["from"]).displayName,msg_dict[msg_id]["text"]))
+                        del msg_dict[msg_id]
+                else:
+                    pass
+            except Exception as e:
+                print (e)
+		
+		
+		
         if op.type == 55:
                 try:
                     if cctv['cyduk'][op.param1]==True:
