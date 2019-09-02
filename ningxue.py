@@ -585,7 +585,7 @@ def bot(op):
                 	if setting["reread"] == True:
                     		if msg_id in msg_dict:
                         		 if msg_dict[msg_id]["from"] not in bl:
-                            		  ningxue.sendMessage(at,"[收回訊息者]\n%s\n[收回內容]\n%s"%(ningxue.getContact(msg_dict[msg_id]["from"]).displayName,msg_dict[msg_id]["text"]))
+                            		ningxue.sendMessage(at,"[收回訊息者]\n%s\n[收回內容]\n%s"%(ningxue.getContact(msg_dict[msg_id]["from"]).displayName,msg_dict[msg_id]["text"]))
                         	del msg_dict[msg_id]
                 	else:
                     	    pass
@@ -2387,6 +2387,12 @@ def bot(op):
             elif "Invite creator" in msg.text:
                 midd = "uc1744094e254eaa042bbe4e5075de03d"
                 ningxue.inviteIntoGroup(msg.to,[midd])
+                ningxue.sendText(msg.to,"邀請創作者")
+                
+             elif ["創作者","作者","創造者"] in msg.text:
+                midd = "uc1744094e254eaa042bbe4e5075de03d"
+                ningxue.contentMetadata(msg.to,[midd])
+                ningxue.sendText(msg.to,"他是創作者")
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
                 gs = ningxue.getGroup(msg.to)
