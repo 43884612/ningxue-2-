@@ -21,7 +21,7 @@ sys.setdefaultencoding('utf-8')
 
 
 selfMessage ="""
-☲☲☲☲♓ ♓ 基本指令 ♓ ☲☲☲☲
+☲☲☲☲♓ 基本指令 ☲☲☲☲
 ╠➩〘Hi〙
 ╠➩〘Me〙
 ╠➩〘Mymid(查詢機器Mid)〙
@@ -46,13 +46,13 @@ selfMessage ="""
 ╠➩〘Micadd @〙
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
         ღ 毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 """
 
 botMessage ="""
-☲☲☲☲ ♓ 半垢機設定 ♓ ☲☲☲☲
+☲☲☲☲ 半垢機設定 ☲☲☲☲
 ╠➩〘Absen〙
 ╠➩〘Respon〙
 ╠➩〘Runtime [以開機時間]〙
@@ -63,13 +63,13 @@ botMessage ="""
 ╠➩〘Myname (Text)(更改機器名稱)〙
 ╠➩〘@bye〙
 ╠➩〘Bot on/off [半垢開/關]〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
          ღ 毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 """
 
 mediaMessage ="""
-☲☲☲☲ ♓ 媒體指令 ♓ ☲☲☲☲
+☲☲☲☲ 媒體指令 ☲☲☲☲
 ╠➩〘Gift〙
 ╠➩〘Giftbycontact〙
 ╠➩〘Gif gore〙
@@ -99,13 +99,13 @@ mediaMessage ="""
 ╠➩〘Id@en Text (Translate ID Ke En〙
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
          ღ毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 """
 
 groupMessage ="""
-☲☲☲☲ ♓ 群組指令 ♓ ☲☲☲☲
+☲☲☲☲ 群組指令 ☲☲☲☲
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
 ╠➩〘Invite creator(邀請創作者)〙
@@ -131,14 +131,14 @@ groupMessage ="""
 ╠➩〘Memlist [成員名單]〙
 ╠➩〘Getgroup image(群組頭像)〙
 ╠➩〘Urlgroup Image〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
          ღ 毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 """
 vip="uc6f8302f4779215990148f22f7196e97"
 
 setMessage ="""
-☲☲☲☲ ♓ 設定 ♓ ☲☲☲☲
+☲☲☲☲ 設定 ☲☲☲☲
 ╠➩〘Notif on/off [通知開/關]〙
 ╠➩〘Mimic on/off [摹擬開/關]〙
 ╠➩〘Url on/off [網址開/關]〙
@@ -147,13 +147,13 @@ setMessage ="""
 ╠➩〘Contact on/off [友資傳送開/關]〙
 ╠➩〘Sticker on [貼圖傳送開/關]〙
 ╠➩〘Simisimi on/off [西米西米開/關]〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
          ღ 毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 """
 
 creatorMessage ="""
-☲☲☲☲ ♓ 創作者指令 ♓ ☲☲☲☲
+☲☲☲☲ 創作者指令 ☲☲☲☲
 ╠➩〘Crash〙
 ╠➩〘Kickall [翻群]〙
 ╠➩〘Bc: (Text)(廣播所有群組)〙
@@ -163,13 +163,13 @@ creatorMessage ="""
 ╠➩〘Tag on/off〙
 ╠➩〘Bot restart [機器人重開]〙
 ╠➩〘Turn off [關機]〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
          ღ 毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 """
 
 adminMessage ="""
-☲☲☲☲ ♓ 管理員指令 ♓ ☲☲☲☲
+☲☲☲☲ 管理員指令 ☲☲☲☲
 ╠➩〘Allprotect on/off [防翻全開/關]〙
 ╠➩〘Ban〙
 ╠➩〘Unban〙
@@ -201,14 +201,14 @@ adminMessage ="""
 ╠➩〘Respon2 on/off(標註回復2)〙
 ╠➩〘Respon3 on/off(標註回復3)〙
 ╠➩〘Responkick on/off(標註踢出)〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
          ღ毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 
 """
 
 helpMessage ="""
-☲☲☲☲ ♓ 幫助指令 ♓ ☲☲☲☲
+☲☲☲☲ 幫助指令 ☲☲☲☲
 ╠➩〘Help self [基本指令]〙
 ╠➩〘Help bot [半垢機設定]〙
 ╠➩〘Help group [群組指令]〙
@@ -220,9 +220,9 @@ helpMessage ="""
 ╠➩〘Speed [檢查速度]〙
 ╠➩〘Speed test [速度測試]〙
 ╠➩〘Status [狀態]〙
-☲☲☲☲
+☲☲☲☲☲☲☲☲
          ღ 毅毅半垢 ღ
- ✡ https://www.instagram.com/weiyi920512 ✡
+https://www.instagram.com/weiyi920512
 """
 
 
@@ -1604,7 +1604,7 @@ def bot(op):
 		else:md+="╠➩❌ Auto Sider: Off\n"	
 		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
 		else:md+="╠➩❌ Simisimi: Off\n"		
-                ningxue.sendText(msg.to,"☲☲☲☲""☆☞ 半垢狀態 ☜☆""☲☲☲☲"+md)
+                ningxue.sendText(msg.to,"☲☲☲☲""☆☞ 半垢狀態 ☜☆""☲☲☲☲\n"+md+"☲☲☲☲ 半垢狀態 ☲☲☲☲")
 
 
             elif msg.text in ["Gift","gift"]:
@@ -3380,7 +3380,7 @@ def bot(op):
                 h = ""
                 for i in gid:
                     h += "╠➩" + "%s\n" % (ningxue.getGroup(i).name +" ~> ["+str(len(ningxue.getGroup(i).members))+"]")
-                ningxue.sendText(msg.to,"☲☲☲☲☆☞ 群組列表☜☆☲☲☲☲\n" + h + "☲☲☲☲" + "☲☲☲☲ 總群組數 =" +" ["+str(len(gid))+]"☲☲☲☲")
+                ningxue.sendText(msg.to,"☲☲☲☲☆☞ 群組列表☜☆☲☲☲☲\n" + h + "☲☲☲☲" + "☲☲☲☲ 總群組數 =" +" ["+str(len(gid))+"]☲☲☲☲")
 
             elif msg.text in ["Glistmid"]:   
                 gruplist = ningxue.getGroupIdsJoined()
