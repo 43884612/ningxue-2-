@@ -21,9 +21,7 @@ sys.setdefaultencoding('utf-8')
 
 
 selfMessage ="""
-╔═══════════════
-║       ♓ 基本指令 ♓
-╠═══════════════
+☲☲☲☲♓ ♓ 基本指令 ♓ ☲☲☲☲
 ╠➩〘Hi〙
 ╠➩〘Me〙
 ╠➩〘Mymid(查詢機器Mid)〙
@@ -48,16 +46,13 @@ selfMessage ="""
 ╠➩〘Micadd @〙
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
-╠═══════════════
-║         ღ 毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+        ღ 毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
 """
 
 botMessage ="""
-╔═══════════════
-║       ♓ 半垢機設定 ♓
-╠═══════════════
+☲☲☲☲ ♓ 半垢機設定 ♓ ☲☲☲☲
 ╠➩〘Absen〙
 ╠➩〘Respon〙
 ╠➩〘Runtime [以開機時間]〙
@@ -68,16 +63,13 @@ botMessage ="""
 ╠➩〘Myname (Text)(更改機器名稱)〙
 ╠➩〘@bye〙
 ╠➩〘Bot on/off [半垢開/關]〙
-╠═══════════════
-║         ღ 毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+         ღ 毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
 """
 
 mediaMessage ="""
-╔═══════════════
-║       ♓ 媒體指令 ♓
-╠═══════════════
+☲☲☲☲ ♓ 媒體指令 ♓ ☲☲☲☲
 ╠➩〘Gift〙
 ╠➩〘Giftbycontact〙
 ╠➩〘Gif gore〙
@@ -107,16 +99,13 @@ mediaMessage ="""
 ╠➩〘Id@en Text (Translate ID Ke En〙
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
-╠═══════════════
-║         ღ毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+         ღ毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
 """
 
 groupMessage ="""
-╔═══════════════
-║       ♓ 群組指令 ♓
-╠═══════════════
+☲☲☲☲ ♓ 群組指令 ♓ ☲☲☲☲
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
 ╠➩〘Invite creator(邀請創作者)〙
@@ -142,17 +131,14 @@ groupMessage ="""
 ╠➩〘Memlist [成員名單]〙
 ╠➩〘Getgroup image(群組頭像)〙
 ╠➩〘Urlgroup Image〙
-╠═══════════════
-║         ღ 毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+         ღ 毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
 """
-vip="需要自己輸入，別把引號刪了"
+vip="uc6f8302f4779215990148f22f7196e97"
 
 setMessage ="""
-╔═══════════════
-║       ♓ 設定 ♓
-╠═══════════════
+☲☲☲☲ ♓ 設定 ♓ ☲☲☲☲
 ╠➩〘Notif on/off [通知開/關]〙
 ╠➩〘Mimic on/off [摹擬開/關]〙
 ╠➩〘Url on/off [網址開/關]〙
@@ -161,17 +147,13 @@ setMessage ="""
 ╠➩〘Contact on/off [友資傳送開/關]〙
 ╠➩〘Sticker on [貼圖傳送開/關]〙
 ╠➩〘Simisimi on/off [西米西米開/關]〙
-╠➩〘ReRead On/Off [查詢收回開/關]〙
-╠═══════════════
-║         ღ 毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+         ღ 毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
 """
 
 creatorMessage ="""
-╔═══════════════
-║       ♓ 創作者指令 ♓
-╠═══════════════
+☲☲☲☲ ♓ 創作者指令 ♓ ☲☲☲☲
 ╠➩〘Crash〙
 ╠➩〘Kickall [翻群]〙
 ╠➩〘Bc: (Text)(廣播所有群組)〙
@@ -181,16 +163,13 @@ creatorMessage ="""
 ╠➩〘Tag on/off〙
 ╠➩〘Bot restart [機器人重開]〙
 ╠➩〘Turn off [關機]〙
-╠═══════════════
-║         ღ 毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+         ღ 毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
 """
 
 adminMessage ="""
-╔═══════════════
-║       ♓ 管理員指令 ♓
-╠═══════════════
+☲☲☲☲ ♓ 管理員指令 ♓ ☲☲☲☲
 ╠➩〘Allprotect on/off [防翻全開/關]〙
 ╠➩〘Ban〙
 ╠➩〘Unban〙
@@ -222,16 +201,14 @@ adminMessage ="""
 ╠➩〘Respon2 on/off(標註回復2)〙
 ╠➩〘Respon3 on/off(標註回復3)〙
 ╠➩〘Responkick on/off(標註踢出)〙
-╠═══════════════
-║         ღ毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+         ღ毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
+
 """
 
 helpMessage ="""
-╔═══════════════
-║       ♓ 幫助指令 ♓
-╠═══════════════
+☲☲☲☲ ♓ 幫助指令 ♓ ☲☲☲☲
 ╠➩〘Help self [基本指令]〙
 ╠➩〘Help bot [半垢機設定]〙
 ╠➩〘Help group [群組指令]〙
@@ -243,18 +220,17 @@ helpMessage ="""
 ╠➩〘Speed [檢查速度]〙
 ╠➩〘Speed test [速度測試]〙
 ╠➩〘Status [狀態]〙
-╠═══════════════
-║         ღ 毅毅半垢 ღ
-║ ✡ https://www.instagram.com/weiyi920512 ✡
-╚═══════════════
+☲☲☲☲
+         ღ 毅毅半垢 ღ
+ ✡ https://www.instagram.com/weiyi920512 ✡
 """
 
 
 KAC=[ningxue]
 mid = ningxue.getProfile().mid
 Bots=[mid]
-Creator=["需要自己輸入，別把引號刪了"]
-admin=["需要自己輸入，別把引號刪了"]
+Creator=["uc6f8302f4779215990148f22f7196e97","uc1744094e254eaa042bbe4e5075de03d"]
+admin=["uc6f8302f4779215990148f22f7196e97","uc1744094e254eaa042bbe4e5075de03d"]
 
 contact = ningxue.getProfile()
 backup1 = ningxue.getProfile()
@@ -274,7 +250,6 @@ wait = {
     "Members":10,
     "AutoCancel":False,
     "AutoKick":False,
-    'reread':True,
     'pap':{},
     'invite':{},
     'steal':{},
@@ -288,7 +263,7 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like By : ningxue",    
+    "comment":"Bot Auto Like By : weiyi",    
     "commentOn":True,
     "commentBlack":{},
     "message":"感謝你邀我進群組~",    
@@ -577,23 +552,7 @@ def bot(op):
                          pass
                 except:
                     pass
-	
-	    if op.type == 65:
-            	try:
-                	at = op.param1
-                	msg_id = op.param2
-                	if setting["reread"] == True:
-                    		if msg_id in msg_dict:
-                        		 if msg_dict[msg_id]["from"] not in bl:
-                                    ningxue.sendMessage(at,"[收回訊息者]\n%s\n[收回內容]\n%s"%(ningxue.getContact(msg_dict[msg_id]["from"]).displayName,msg_dict[msg_id]["text"]))
-                        	del msg_dict[msg_id]
-                	else:
-                    	    pass
-                except:
-                	    print (e)
-		
-		
-		
+	      
         if op.type == 55:
                 try:
                     if cctv['cyduk'][op.param1]==True:
@@ -652,7 +611,7 @@ def bot(op):
                         ningxue.leaveGroup(op.param1)                        
 		    else:
                         ningxue.acceptGroupInvitation(op.param1)
-			ningxue.sendText(op.param1,"☆輸入 ☞Help☜ 查看指令 ^_^ ☆")
+			ningxue.sendText(op.param1,"☆ 安安機器你好 ☆")
                         		    
  
 	    if mid in op.param3:
@@ -662,7 +621,7 @@ def bot(op):
                         ningxue.rejectGroupInvitation(op.param1)
 		    else:
                         ningxue.acceptGroupInvitation(op.param1)
-			ningxue.sendText(op.param1,"☆輸入 ☞Help☜ 查看指令 ^_^ ☆")
+			ningxue.sendText(op.param1,"☆ 安安機器你好 ☆")
 	    else:
                 if wait["AutoCancel"] == True:
 		    if op.param3 in Bots:
@@ -888,8 +847,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = ningxue.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = [cName + " 幹嘛!!",cName + " 找我ㄇ"]
-		     balas1 = "機器死亡!!ㄎㄎ"
+                     balas = ["不要標我!! 我很忙!!",cName + " 再標我不理你了!!"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -897,7 +855,6 @@ def bot(op):
                      for mention in mentionees:
                            if mention['M'] in Bots:
                                   ningxue.sendText(msg.to,ret_)
-				  ningxue.sendText(msg.to,balas1)
                                   break   
                               
             if 'MENTION' in msg.contentMetadata.keys() != None:
@@ -1062,10 +1019,9 @@ def bot(op):
             elif msg.text is None:
                 return
  
-            elif msg.text in ["Creator","Owner","Cr"]:
+            elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                tjia = "uc6f8302f4779215990148f22f7196e97"
-                msg.contentMetadata = {'mid': tjia}
+                msg.contentMetadata = {'mid': uc6f8302f4779215990148f22f7196e97}
                 ningxue.sendMessage(msg)
 		ningxue.sendText(msg.to,"他是原創者 (^_^)")
 
@@ -1077,7 +1033,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': gCreator}
                 ningxue.sendMessage(msg)
-		ningxue.sendText(msg.to,"他是群主")
+		ningxue.sendText(msg.to,"他是創群者")
  
 
                 
@@ -1350,20 +1306,6 @@ def bot(op):
                 else:
                     ningxue.sendText(msg.to,"不能在群組外使用")
  
-	    elif msg.text in ["reread on"]:
-		if msg.from_ in admin:
-                    wait["reread"] = True
-                    ningxue.sendText(msg.to,"查詢收回開啟")
-		else:
-		    ningxue.sendText(msg.to,"只限管理員")
-                    
-            elif msg.text in ["reread off"]:
-		if msg.from_ in admin:
-                    wait["reread"] = False
-                    ningxue.sendText(msg.to,"查詢收回關閉")
-		else:
-		    ningxue.sendText(msg.to,"只限管理員")
-
             elif msg.text in ["Ourl","Url on"]:
                 if msg.toType == 2:
                     X = ningxue.getGroup(msg.to)
@@ -1413,6 +1355,7 @@ def bot(op):
                     ningxue.sendText(msg.to,"自動取消群組邀請關閉")
 		else:
 		    ningxue.sendText(msg.to,"只限管理員")		    
+		    
  
             elif msg.text in ["Respon1 on"]:
 		if msg.from_ in admin:
@@ -1635,8 +1578,6 @@ def bot(op):
 		else:md+="╠➩❌ 進群歡迎 : Off\n"
 		if wait["AutoJoin"] == True: md+="╠➩✔️ 自動入群 : On\n"
                 else: md +="╠➩❌ 自動入群 : Off\n"
-	        if wait["reread"] == True:md+="╠➩✔️ 收回查詢 : On\n"
-                else: md+= "╠➩❌ 收回查詢 : Off\n"  
 		if wait["AutoJoinCancel"] == True: md+="╠➩✔️ Auto Join Cancel : On\n"
                 else: md +="╠➩❌ Auto Join Cancel : Off\n"                
 		if wait["Contact"] == True: md+="╠➩✔️ Info Contact : On\n"
@@ -1663,7 +1604,7 @@ def bot(op):
 		else:md+="╠➩❌ Auto Sider: Off\n"	
 		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
 		else:md+="╠➩❌ Simisimi: Off\n"		
-                ningxue.sendText(msg.to,"╔═════════════════════════\n""║           ☆☞ 半垢狀態 ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+                ningxue.sendText(msg.to,"☲☲☲☲""☆☞ 半垢狀態 ☜☆""☲☲☲☲"+md)
 
 
             elif msg.text in ["Gift","gift"]:
@@ -2289,9 +2230,9 @@ def bot(op):
                         dataResult.append(contactId[v].displayName + ' ('+timeSeen[v]+')')
                         pass
                     if len(dataResult) > 0:
-                        tukang = "╔═════════════════════════\n║         ☆☞ 已讀 名單 ☜☆\n╠═════════════════════════\n╠➩"
+                        tukang = "☲☲☲☲☆☞ 已讀 名單 ☜☆☲☲☲☲"
                         grp = '\n╠➩ '.join(str(f) for f in dataResult)
-                        total = '\n╠═════════════════════════\n╠➩ 共 %i 個已讀 (%s)' % (len(dataResult), datetime.now().strftime('%H:%M:%S')) + "\n╚═════════════════════════"
+                        total = '☲☲☲☲ 共 %i 個已讀 (%s)' % (len(dataResult), datetime.now().strftime('%H:%M:%S'))
                         ningxue.sendText(msg.to, "%s %s %s" % (tukang, grp, total))
                         subprocess.Popen("echo '' > dataSeen/"+msg.to+".txt", shell=True, stdout=subprocess.PIPE)
                         ningxue.sendText(msg.to, "☆ 自動設定檢查點 ☆")                        
@@ -2388,7 +2329,6 @@ def bot(op):
             elif "Invite creator" in msg.text:
                 midd = "uc1744094e254eaa042bbe4e5075de03d"
                 ningxue.inviteIntoGroup(msg.to,[midd])
-                ningxue.sendText(msg.to,"邀請創作者")
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
                 gs = ningxue.getGroup(msg.to)
@@ -2405,7 +2345,7 @@ def bot(op):
 		gid = ningxue.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			ningxue.sendText(i,"=======[廣播]=======\n\n"+bc+"\n\n=======[廣播結束]=======")
+			ningxue.sendText(i,"☲☲☲☲[廣播]☲☲☲☲\n\n"+bc+"\n\n☲☲☲☲[廣播結束]☲☲☲☲")
 		    ningxue.sendText(msg.to,"Success BC BosQ")
 		else:
 		    ningxue.sendText(msg.to,"只限管理員")
@@ -2765,7 +2705,7 @@ def bot(op):
                         if _nametarget == g.displayName:
                             targets.append(g.mid)
                     if targets == []:
-                        ningxue.sendText(msg.to,"Not found")
+                        ningxue.sendText(msg.to,"沒有用戶")
                     else:
                         for target in targets:
                             try:
@@ -2773,7 +2713,7 @@ def bot(op):
                                 ningxue.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
                             except Exception as error:
                                 print error
-                                ningxue.sendText(msg.to,"Upload image failed.")
+                                ningxue.sendText(msg.to,"上傳圖片失敗")
 
             elif "Pp @" in msg.text:
                 if msg.toType == 2:
@@ -2785,7 +2725,7 @@ def bot(op):
                         if _nametarget == g.displayName:
                             targets.append(g.mid)
                     if targets == []:
-                        ningxue.sendText(msg.to,"Not found")
+                        ningxue.sendText(msg.to,"沒有用戶")
                     else:
                         for target in targets:
                             try:
@@ -2793,7 +2733,7 @@ def bot(op):
                                 ningxue.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
                             except Exception as error:
                                 print error
-                                ningxue.sendText(msg.to,"Upload image failed.")
+                                ningxue.sendText(msg.to,"上傳圖片失敗")
 
             elif msg.text.lower() in ["pap owner","pap creator"]:
                                 link = ["http://dl.profile.line-cdn.net/0hFR-rB8h-GX0QCzWZMOZmKixOFxBnJR81aG9eSTUNREhtOVYqJWgFSWYDR05vOwp7K2sCGTELRUVo"]
@@ -3249,22 +3189,22 @@ def bot(op):
                 contactlist = ningxue.getAllContactIds()
                 kontak = ningxue.getContacts(contactlist)
                 num=1
-                msgs="═════════好友 列表═════════"
+                msgs="☲☲☲☲好友 列表☲☲☲☲"
                 for ids in kontak:
                     msgs+="\n[%i] %s" % (num, ids.displayName)
                     num=(num+1)
-                msgs+="\n═════════好友 列表═════════\n\n好友總數 : %i" % len(kontak)
+                msgs+="\n☲☲☲☲好友 列表☲☲☲☲\n\n好友總數 : %i" % len(kontak)
                 ningxue.sendText(msg.to, msgs)
 
             elif msg.text in ["Memlist"]:   
                 kontak = ningxue.getGroup(msg.to)
                 group = kontak.members
                 num=1
-                msgs="═════════群組成員═�����═══════-"
+                msgs="☲☲☲☲群組成員☲☲☲☲"
                 for ids in group:
                     msgs+="\n[%i] %s" % (num, ids.displayName)
                     num=(num+1)
-                msgs+="\n═════════群組成員═════════\n\n成員總數 : %i" % len(group)
+                msgs+="\n☲☲☲☲群組成員☲☲☲☲\n\n成員總數 : %i" % len(group)
                 ningxue.sendText(msg.to, msgs)
 
             
@@ -3440,17 +3380,17 @@ def bot(op):
                 h = ""
                 for i in gid:
                     h += "╠➩" + "%s\n" % (ningxue.getGroup(i).name +" ~> ["+str(len(ningxue.getGroup(i).members))+"]")
-                ningxue.sendText(msg.to,"╔═════════════════════════\n║          ☆☞ 群組列表☜☆\n╠═════════════════════════\n" + h + "╠═════════════════════════" + "\n║ 總群組數 =" +" ["+str(len(gid))+"]\n╚═════════════════════════")
+                ningxue.sendText(msg.to,"☲☲☲☲☆☞ 群組列表☜☆☲☲☲☲\n" + h + "☲☲☲☲" + "☲☲☲☲ 總群組數 =" +" ["+str(len(gid))+]"☲☲☲☲")
 
             elif msg.text in ["Glistmid"]:   
                 gruplist = ningxue.getGroupIdsJoined()
                 kontak = ningxue.getGroups(gruplist)
                 num=1
-                msgs="═════════所有群組Gid═════════"
+                msgs="☲☲☲☲所有群組Gid☲☲☲☲"
                 for ids in kontak:
                     msgs+="\n[%i] %s" % (num, ids.id)
                     num=(num+1)
-                msgs+="\n═════════所有群組Gid═════════\n\n總群組數 : %i" % len(kontak)
+                msgs+="\n☲☲☲☲所有群組Gid☲☲☲☲\n\n總群組數 : %i" % len(kontak)
                 ningxue.sendText(msg.to, msgs)
 
 
