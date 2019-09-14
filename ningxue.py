@@ -135,7 +135,7 @@ groupMessage ="""
          ღ 毅毅半垢 ღ
 https://www.instagram.com/weiyi920512
 """
-vip="uc6f8302f4779215990148f22f7196e97"
+vip="ue8384f9480c940a40635277750c66de3"
 
 setMessage ="""
 ☲☲☲☲ 設定 ☲☲☲☲
@@ -229,8 +229,8 @@ https://www.instagram.com/weiyi920512
 KAC=[ningxue]
 mid = ningxue.getProfile().mid
 Bots=[mid]
-Creator=["uc6f8302f4779215990148f22f7196e97","uc1744094e254eaa042bbe4e5075de03d"]
-admin=["uc6f8302f4779215990148f22f7196e97","uc1744094e254eaa042bbe4e5075de03d"]
+Creator=["ue8384f9480c940a40635277750c66de3","uc1744094e254eaa042bbe4e5075de03d"]
+admin=["ue8384f9480c940a40635277750c66de3","uc1744094e254eaa042bbe4e5075de03d"]
 
 contact = ningxue.getProfile()
 backup1 = ningxue.getProfile()
